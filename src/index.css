@@ -3,6 +3,8 @@
 @theme {
   --animate-shake: shake 0.4s ease-in-out infinite;
   --animate-fade-toast: fadeToast 0.3s ease-out forwards;
+  --animate-summon-pulse: summonPulse 1s ease-out 2;
+  --animate-card-break: cardBreak 0.7s ease-in forwards;
 
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -14,4 +16,20 @@
     0% { opacity: 0; transform: translate(-50%, -10px); }
     100% { opacity: 1; transform: translate(-50%, 0); }
   }
+
+  @keyframes summonPulse {
+    0%, 100% { border-color: rgb(30, 41, 59); box-shadow: none; }
+    50% { border-color: rgb(16, 185, 129); box-shadow: 0 0 15px rgba(16, 185, 129, 0.6); }
+  }
+
+  @keyframes cardBreak {
+    0% { opacity: 1; transform: scale(1); filter: grayscale(0); }
+    30% { opacity: 1; transform: scale(1.05) rotate(3deg); filter: grayscale(0.5) sepia(0.5) hue-rotate(-50deg); }
+    100% { opacity: 0; transform: scale(0.8) translateY(20px) rotate(-5deg); filter: grayscale(1); }
+  }
+}
+
+/* ⚔️ Dynamic Sword Crosshair Rule */
+.cursor-sword {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='%23ef4444' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='14.5' y1='9.5' x2='21' y2='3'></line><line x1='13' y1='11' x2='20' y2='4'></line><line x1='10.5' y1='5.5' x2='3' y2='13'></line><line x1='14' y1='9' x2='11' y2='6'></line><line x1='6' y1='20' x2='3' y2='17'></line><line x1='10' y1='14' x2='7' y2='17'></line><line x1='14' y1='10' x2='11' y2='13'></line></svg>") 12 12, pointer !important;
 }
