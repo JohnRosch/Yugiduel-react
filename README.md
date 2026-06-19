@@ -1,9 +1,10 @@
-# Yugiduel-react game
+# Yugiduel-react web app
 
-[Check the game here] (https://yugiduel-react.vercel.app/)
+Check the game here(https://yugiduel-react.vercel.app/)
 
 
-## Gamescreenshot
+## Game screenshot
 
 ![screenshot](assets/YugiGame.jpg)
 
+![screenshot2](assets/ss1.jpg)
