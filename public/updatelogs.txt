@@ -1,0 +1,108 @@
+game updates
+
+-each player should have monster zone where in  they can put the chosen card its either face down or face up  Both sections feature exactly 5 spaces per player. Just like literally in yugioh card game mechanics
+
+-change pass button to EndTurn
+
+-player should manually draw card by clicking the deck zone, should add card layout for the deck in each players right side. 
+
+-Player will manually decide to attack by choosing his card then choosing opponents card. apply some animation like modal showing each card, then shaking animation for the loser card. 
+
+-Each player has their own cycle phase,
+ 
+1. Draw Phase - manually draw by clicking the deck of player on right side
+
+2. Main Phase - player will choose card to put on monster zone its either face up or face down
+
+3. Battle phase - player will choose his card from monster zone then choose oppenents card from his monster zone,  then the battle animation modal will happen, and add proceed button for modal to exit , its should not be auto close for battlle animation modal
+
+============================================
+
+Main phase update
+
+-for main phase allow each players to put 1 card only into the monster zone, because the next is battle phase,
+
+-for the coin toss winners, after the draw and main phase, there should be no battle phase , it should be end phase THIS IS ONLY FOR THE COIN TOSS WINNER OR FIRST PLAYER TO DRAW,
+
+-after battle phase , the screen goes white screen only, so technically after battle phase, once the modal disappear current player should have option to choose end Turn . then the next player turn will go for his Draw, Main, Battle and end phase also. 
+
+-The shake animation is not visible please update
+
+===========================================
+Battle phase 
+
+Player 2 seems couldn't attack after chosing the attacker card and clicking the opponent card, usually happen with Player's 2 second turn, only player 1 can do attack and resolve .
+
+still getting white screen after resolving battle phase, 
+
+------------------------------------
+
+all good with player 2 cant attack, however getting white screen after resolving attack phase. 
+
+can you add strong hover effects when cursor is at the card? also add another effects for the chosen attacker card, it could be make it bigger and highlight the border, do the same with the targeted card , 
+
+hard debug for white screen after battle phase , 
+
+====================================
+BATTLE PHASE UPDATE
+
+now with each players battle phase i notice i can only attack once in one monster only, in yugioh battle phase all monster can perform attack within the same battle phase. 
+
+
+can you also replace the alert notif to something good like alert modal, and the console below i want all of the updates also to be like alert modal .
+
+===================================
+
+Change the alert modal to Fade in and out instead of bounce im getting dizzy with the bounce haha 
+
+=====================================
+
+All good now try to apply life points for 4000 only , you should know the logic in yugioh on how they deduct the life points from the battle phase right, 
+
+Then Game over Modal and declaring which player wins. 
+
+Have modal option also to play again? 
+
+===================================
+
+1.Battle phase update
+
+-change the mouse finger pointer icon to sword icon once the player is hovering the mouse to opponents card as a target for the attack.  (PRIO THIS NOT DONE)
+
+-when attacking a face down monster, in the modal vs screen the defensive facedown monster should be face up but the reference will still its defense points. (NOT DONE)
+
+-add animation effects to the defeated monster card, it could be tear into half or a cross out mark on the card before it remove from the monster zone. (NOT DONE)
+
+2. Cards update
+
+-make the card on hand Bigger so the full name of monster card is showing
+
+- once the player hover the cards on hand remove the overlay background on the card retain the original opacity of the card.(DONE)
+
+
+3. Summon monster Effects
+- add effects/animation once monster is placed in monster zone, like monster zone border will have blinking or highlights, showing that monster zone has been occupied.
+(NEEDS IMPROVEMENT)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
