@@ -1,6 +1,6 @@
-# Yugiduel-react web app
+# Yugiduel-react game
 
-Check the game here(https://yugiduel-react.vercel.app/)
+Check the game here (https://yugiduel-react.vercel.app/)
 
 
 ## Gamescreenshot
